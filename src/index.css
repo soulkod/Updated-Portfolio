@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/*For mobile devices */
+@media (max-width: 600px) {
+  body{
+    margin: 0;
+    border: 0;
+  }
+  .navbar {
+    background-color: #175A51;
+  }
+
+  .nav-item {
+    margin-left: 15px;
+  }
+
+  .project-section {
+    background-color: #04151F;
+    height: 160vh;
+  }
+
+  svg {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+
+  h1 {
+    font-size: 10px;
+  }
+
+  .name-label {
+    font-size: 16px;
+    align-items: center;
+  }
+  .intro-text{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .home-img{
+    
+    height:50%;
+    width: 50%;
+  }
+
+  .home-section{
+    height: 100vh;
+    margin-bottom: 10px;
+  }
+
+  .rekakagona-text{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .view-projects-button {
+    background-color: #175A51;
+    color: white;
+    width: 175px;
+    height: 35px;
+    border: 0;
+    
+  }
+  .view-projects-button a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .experience-section {
+    height: 220vh;
+    background-color: #20635A;
+  }
+}
+
+/*For tablets */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 10px;
+  }
+  .name-label {
+    font-size: 20px;
+  }
+
+  svg {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+
+  .contacts-section {
+    height: 100vh;
+    background-color: #4DA167;
+  }
+
+  .contacts-section-inside {}
+
+  .about-me-line {
+    width: 150px;
+    height: 5px;
+    color: white;
+  }
+
+  .footer-section {
+    height: 10vh;
+    background-color: #04151F;
+  }
+
+  .navbar {
+    background-color: #175A51;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: max-content;
+    height: 65px;
+    border-radius: 35px;
+  }
+
+  .project-section {
+    height: 100vh;
+    background-color:#20635A ;
+
+  }
+
+  .experience-section {
+    height: 100vh;
+    background-color:#04151F ;
+  }
+
+
+  .current {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .rekakgona-section {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .view-projects-button {
+    background-color: #175A51;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: 0;
+  }
+
+}
+/*For laptops */
+@media (max-width: 992px) {
+
+}
+
+/*For large screens */
+@media (min-width: 1200px) {
+
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.rekakgona-link {
+  text-decoration: none;
+  color: white;
+}
+
+.foodpedia-section {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.row-home {
+  height: 80vh;
+}
+
+.home-paragraph {
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+}
+
+
+
+
+
+.home-section {
+  height: 85vh;
+}
+
+p {
+  font-size: 14px;
+}
+
+.contact-form-section{
+  background-color: #175A51;
+}
+.get-in-touch-btn{
+  background-color: #04151F;
+  border: 0px;
+  width: 150px;
+  border-radius: 15px;
+  color: white;
+}
+
+.education-section {
+  background-color: #20635A;
+  height: 100vh;
+}
