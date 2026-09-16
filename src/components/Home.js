@@ -9,19 +9,16 @@ const Home = () => {
                         <div className="container intro-text">
                             <h3 className='name-label'>Thato Solomon Makoela</h3>
                             <h2 className='d-flex'>
-                                I am a &nbsp; {' '} 
+                                I am a &nbsp; {' '}
                                 <Typewriter className='typewriter-text'
                                     options={{
-                                        strings: [' Designer', ' Data Scientist', ' Developer', ' Business Analyst', ' Tester'],
+                                        strings: ['Designer', 'Data Scientist', 'Developer', 'Technician', 'Business Analyst', 'Tester'],
                                         autoStart: true,
                                         loop: true,
                                     }}
                                 />
                             </h2>
-                            <p className='home-paragraph'>Versatile software engineer skilled in designing, developing,
-                                and optimizing high-performance applications. Experienced in collaborating
-                                with cross-functional teams to deliver
-                                innovative solutions that meet both business needs and user expectations.</p>
+                            <p className='home-paragraph'>I’m a multidisciplinary builder who works across the entire product lifecycle from analyzing business needs and designing user experiences to writing code, analyzing data, and testing the final product. I enjoy bridging the gap between strategy and technical execution to turn complex ideas into smooth, high-performing digital tools.</p>
                         </div>
                         <div className="container intro-text">
                             <ul className="list-inline">

@@ -1,6 +1,6 @@
 const Experience = () => {
     return (
-        <div className="experience-section h-100">
+        <div className="experience-section h-100" id="experience">
             <div className="experience-inside">
 
 

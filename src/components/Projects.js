@@ -1,6 +1,6 @@
 const Projects = () => {
     return (
-        <div className="project-section">
+        <div className="project-section h-100" id="projects">
             <div className="d-flex justify-content-center  pt-5 text-white">
                 Explore my,
             </div>
@@ -87,8 +87,8 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="d-flex justify-content-center ">
-                    <button className=" view-projects-button " ><a href="https://github.com/soulkod" className='link text-white'>View my projects.</a></button>
+                <div className="d-flex justify-content-center pb-4 ">
+                    <button className=" view-projects-button " ><a href="https://github.com/soulkod" className='text-decoration-none text-reset'>View my projects.</a></button>
                 </div>
             </div>
 

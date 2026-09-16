@@ -18,14 +18,15 @@ const NavBar = () => {
                         <li className="nav-item me-3">
                             <a className="nav-link active text-white" aria-current="page" href="#">Home</a>
                         </li>
+                        
+                        <li className="nav-item">
+                            <a className="nav-link active text-white me-3" href="#education-section">Education</a>
+                        </li>
                         <li className="nav-item">
                             <a className="nav-link active text-white me-3" href="#experience">Experience</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active text-white me-3" href="">Education</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link active text-white me-3" href="">Projects</a>
+                            <a className="nav-link active text-white me-3" href="#projects">Projects</a>
                         </li>
                         <li className="nav-item">
                             <a

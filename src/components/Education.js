@@ -1,6 +1,6 @@
 const Education = () => {
     return (
-        <div className="education-section">
+        <div className="education-section" id="education-section">
             <div className="d-flex justify-content-center pt-5 mt-5 text-white">
                 Explore my,
             </div>
