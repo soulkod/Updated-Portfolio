@@ -10,7 +10,6 @@ import Footer from "./components/footer";
 
 
 function App() {
-  const name = 'Thato Makoela';
   return (
     <div className="App">
       <NavBar />
