@@ -2,9 +2,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 const NavBar = () => {
     return (
-        <nav className="navbar navbar-expand-lg sticky-top mt-md-5">
+        <nav className="navbar navbar-expand-lg sticky-top mt-md-5" id='home'>
             <div className="container-fluid">
-                <a className="navbar-brand text-white ms-3" href="#">Thato Makoela</a>
+                <a className="navbar-brand text-white ms-3" href="#home">Thato Makoela</a>
                 <button className="navbar-toggler border-0 bg-transparent p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <svg width="35px" height="35px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M4 18L20 18" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
@@ -16,7 +16,7 @@ const NavBar = () => {
                 <div className="collapse navbar-collapse ls-5 text-white" id="navbarNav">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item me-3">
-                            <a className="nav-link active text-white" aria-current="page" href="#">Home</a>
+                            <a className="nav-link active text-white" aria-current="page" href="#home">Home</a>
                         </li>
                         
                         <li className="nav-item">
