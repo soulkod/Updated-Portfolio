@@ -6,21 +6,21 @@ import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Education from "./components/Education";
+import Footer from "./components/footer";
+
 
 function App() {
   const name = 'Thato Makoela';
   return (
     <div className="App">
       <NavBar />
-
       <div className="content">
-        <Home/>
-        <Education/>
-        <Experience/>
-        <Projects/>
-        
-        <Contact/>
-        <footer/>
+        <Home />
+        <Education />
+        <Experience />
+        <Projects />
+        <Contact />
+        <Footer />
       </div>
     </div>
   );

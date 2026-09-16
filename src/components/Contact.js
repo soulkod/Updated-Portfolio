@@ -54,7 +54,7 @@ const Contact = () => {
                             <hr className="about-me-line bg-white" />
                             <p className="text-white">
                                 I am a Computer Science graduate from Tshwane University of Technology, with a strong foundation across various areas of Information Technology,
-                                including software development, systems analysis, databases, and business analysis
+                                including Software Development, Systems Analysis, Databases, Data Science and Business analysis
                                 . I am currently pursuing an Advanced Diploma in Computer Science to further strengthen my technical knowledge and professional skills.
                                 <br />
                                 <br />
@@ -80,7 +80,7 @@ const Contact = () => {
                                     <svg xmlns="http://www.w3.org/2000/svg" width="45px" height="45px" fill="currentColor" class="bi bi-laptop-fill" viewBox="0 0 16 16">
                                         <path d="M2.5 2A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5" />
                                     </svg>
-                                    <p className="pt-3 ms-3">Passionate for Software Development</p>
+                                    <p className="pt-3 ms-3">Passionate for Technology</p>
                                 </li>
                             </div>
                         </div>
