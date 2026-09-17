@@ -31,7 +31,7 @@ const NavBar = () => {
                         <li className="nav-item">
                             <a
                                 href="TS Makoela - Resume.pdf"
-                                download="Thato Makoela - Resume.pdf"
+                                download="TS Makoela - Resume.pdf"
                                 className="btn active text-black rounded-5 bg-white me-3"
                             >
                                 <i className="bi bi-download me-2"></i>Download CV
